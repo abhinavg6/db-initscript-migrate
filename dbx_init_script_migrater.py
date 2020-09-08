@@ -8,8 +8,8 @@ import base64
 from dbx_api_client import DatabricksAPIClient
 
 # Provide your workspace URL, user and personal authentication token (PAT)
-api_client = DatabricksAPIClient(user="abhinav.garg@databricks.com", 
-    token="dapiac7e8b172b5086179ec7303da59978e5", workspaceUrl="https://eastus2.azuredatabricks.net/")
+api_client = DatabricksAPIClient(user="x.y@abc.com", 
+    token="xxx", workspaceUrl="https://eastus2.azuredatabricks.net/")
 
 # Just copying a test file from ./dbx_test_src to GIS v1 init script path
 api_client._copy_test_file()
